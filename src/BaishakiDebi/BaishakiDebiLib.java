@@ -9,5 +9,11 @@ public class BaishakiDebiLib {
 
         }
     }
-    public static 
+    public static int sumUpTo(int num){
+        int sum=0;
+        for(int i=0; i<num+1;i++){
+            sum=sum+i;
+        }
+        return sum;
+    }
 }
