@@ -21,6 +21,6 @@ public class BaishakiDebiLib {
        String front = olddate.substring(0,i);
        String mid = olddate.substring(i+1,i+3);
        String end = olddate.substring(i+4, olddate.length());
-       return mid+"-"+front+"-"+end;
+       return mid+"-"+front+"-"+end;;
     }
 }
