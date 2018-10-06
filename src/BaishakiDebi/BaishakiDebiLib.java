@@ -16,4 +16,11 @@ public class BaishakiDebiLib {
         }
         return sum;
     }
+    public static String dateStr(String olddate){
+       int i=olddate.indexOf("/");
+       String front = olddate.substring(0,i);
+       String mid = olddate.substring(i+1,i+3);
+       String end = olddate.substring(i+4, olddate.length());
+       return mid+"-"+front+"-"+end;
+    }
 }
